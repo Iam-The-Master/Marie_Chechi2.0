@@ -141,7 +141,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="🏷 Channel", url="https://telegram.dog/Mj_Linkz/"), 
 
 InlineKeyboardButton(text="Creator 🖥", url="https://telegram.dog/MasterOfTG")],
-[InlineKeyboardButton(text="♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/MovieJunction_Group")]])
+[InlineKeyboardButton(text="♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/MovieJunction_Group")]]))
    
  else:
         update.effective_message.reply_text("ഹായ് മച്ചാൻ,  എന്താണ്??")
