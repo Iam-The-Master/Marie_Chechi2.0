@@ -27,22 +27,20 @@ Click /help to Know More...</b></i>
 """
 
 HELP_STRINGS = """
-നമസ്കാരം ! എന്റെ പേര് *{}*.
+Hello! my name *{}*.
+I'm An Advanced Group Manager Group Created For @Moviejunction_Group 🔥
 
-ഞാൻ ടെലെഗ്രാമിലെ Group Management Bot ആണ്... എന്നെ പ്രവർത്തിപ്പിക്കേണ്ട വിധം ആണ് താഴെ കൊടുത്തിട്ടുള്ളത്....
-
-*Main* ലഭ്യമായ commandകൾ:
- - /start: Botനെ Start ചെയ്യാൻ...
- - /help: ഈ മെസ്സേജ് നിങ്ങളുടെ PM വരാൻ....
- - /help <module name>: ഒരു MODULE നെക്കുറിച്ചുള്ള വിവരം നിങ്ങളുടെ PMൽ വരാൻ....
- - /donate: സംഭാവന നൽകുന്നതിനെക്കുറിച്ചുള്ള വിവരങ്ങൾ അറിയാൻ!
+*Main* available commands:
+ - /start: Start the bot...
+ - /help: help....
+ - /donate: To find out more about donating!
  - /settings:
-   - in PM:നിങ്ങൾ സെറ്റ് ചെയ്തിട്ടുള്ള SETTINGS എന്തൊക്കെ ആണെന്ന് അറിയാൻ....
-   - in a group:ഗ്രൂപ്പിൽ കൊടുത്താലും  PMൽ settings വരുന്നതാണ്....
+   - in PM: To find out what SETTINGS you have set....
+   - in a group:
 
 {}
 And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/sonoflars) to get me to where I am now, and every donation helps \
